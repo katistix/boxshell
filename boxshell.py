@@ -34,5 +34,5 @@ if __name__ == '__main__':
         elif CMD == 'clear' or CMD == 'cls':
             os.system('cls' if os.name == 'nt' else 'clear')
         else:
-            print(f'⚠️ Command not found, using system shell\n')
+            # print(f'⚠️ Command not found, using system shell\n')
             os.system(cmdline)
