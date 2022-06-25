@@ -1,1 +1,6 @@
 __pycache__
+
+# pyinstaller
+dist
+build
+boxshell.spec
